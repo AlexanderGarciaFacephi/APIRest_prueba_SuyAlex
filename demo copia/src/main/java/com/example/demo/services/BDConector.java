@@ -1,4 +1,4 @@
-package services;
+package com.example.demo.services;
 
 import org.springframework.stereotype.Component;
 import java.sql.Connection;
@@ -35,8 +35,7 @@ public class BDConector {
                 // ************************************
                 // LUEGO HABRÁ QUE CAMBIAR PARA AZURE
                 // Create a variable for the connection string.
-                String hostName = "LT145.local"; //Alex
-                //String hostName = "LT230.home"; //Su
+                String hostName = "172.17.0.1";
                 String port 	= "3306";
                 String dbName 	= "prueba";
                 String user 	= "root";

@@ -1,4 +1,5 @@
-package models;
+package com.example.demo.models;
+
 
 public class Usuario {
     int id;

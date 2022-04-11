@@ -1,10 +1,9 @@
-package dao;
+package com.example.demo.dao;
 
-import models.Usuario;
+import com.example.demo.models.Usuario;
 import org.springframework.stereotype.Component;
-import services.BDConector;
+import com.example.demo.services.BDConector;
 
-import javax.xml.transform.Result;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
